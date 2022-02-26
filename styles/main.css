@@ -1,0 +1,140 @@
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: 
+       url('../fonts/open-sans-v27-latin-regular.woff2') format('woff2'), 
+       url('../fonts/open-sans-v27-latin-regular.woff') format('woff'); 
+}
+@font-face {
+  font-family: "Open Sans-bold";
+  font-style: normal;
+  font-weight: 700;
+  src:  url('../fonts/open-sans-v27-latin-700.woff2') format('woff2'), 
+        url('../fonts/open-sans-v27-latin-700.woff') format('woff'); 
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans",sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* HEADER */
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.header-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-logo-link {
+  display: inline-block;
+}
+.site-logo {
+  width: 58.11px;
+  height: 20px;
+  display: block;
+}
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-navigation-list ~ .site-navigation-list{
+  margin-left: 32px;
+}
+
+.site-navigation-link{
+  font-size: 15px;
+  line-height: 24px;
+  color: #000000;
+}
+.contact_link{
+  padding: 8px 16px;
+  font-family: "Open Sans-bold";
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #00BAFC;
+  border-radius: 5px;
+}
+/* hero section */
+.hero-wrapper {
+  padding-top: 153px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-hero-content {
+  width: 470px;
+}
+.site-hero-paragraph {
+  margin: 0;
+  font-size: 30px;
+  line-height: 130%;
+  color: #000000;
+}
+.site-hero-text {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.heor-img-content{
+  width: 458px;
+  height: 258px;
+}
+/* Services */
+.service-info {
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+}
+.service-item-text {
+  text-align: center;
+}
+.service-info-adition{
+  width: 719px;
+  margin: 0 219px;
+  text-align: center;
+}
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services-item {
+}
+.service-item-paragraph {
+}
+.site-item-text {
+}
